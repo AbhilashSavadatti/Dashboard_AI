@@ -1,0 +1,71 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.widget {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #525252;
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  cursor: move;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.widget-resize-handle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: nwse-resize; /* Change cursor for resizing */
+}
+
+.widget:hover .widget-resize-handle {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Make the resize handle more visible on hover */
+}
+
+.save-button {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+.save-button.save {
+  background-color: lightgreen;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: -60px;
+}
+
+.save-button.edit {
+  background-color: #f4c542;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: -60px;
+}
+
+.save-button:hover {
+  background-color: #4caf50;
+  color: white;
+}

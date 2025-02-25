@@ -1,0 +1,39 @@
+.api-accordion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 10px 40px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.api-type-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.api-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.api-accordion-title {
+  display: flex;
+  align-items: center;
+}
+
+.api-icon {
+  width: 28px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.api-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,192 @@
+.db-accordion {
+  margin: 20px 0;
+}
+
+.db-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.db-accordion-title {
+  display: flex;
+  align-items: center;
+}
+
+.db-icon {
+  font-size: 24px;
+  color: #8e3bdb;
+  margin-right: 10px;
+  width: 28px;
+  height: 25px;
+}
+
+.db-title-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.db-accordion-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.folder-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.db-accordion-body {
+  margin-top: 10px;
+}
+
+.db-accordion-list {
+  padding: 0;
+  margin: 0;
+}
+
+.db-accordion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  list-style: none;
+  border: 1px solid black;
+  margin: 20px 20px 0px 40px;
+}
+
+.db-connection-details {
+  display: flex;
+  align-items: center;
+}
+
+.db-type-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.db-connection-text {
+  margin: 0;
+}
+
+.db-no-connections {
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* .db-accordion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.db-connection-details {
+  display: flex;
+  align-items: center;
+}
+
+.db-type-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.db-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.db-title-text {
+  margin-left: 10px;
+}
+
+.folder-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.db-accordion-body {
+  margin-left: 20px;
+}
+
+.db-no-connections {
+  color: #888;
+  text-align: center;
+} */
+
+/* .db-accordion {
+  margin: 20px 0;
+}
+
+.db-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.db-accordion-title {
+  display: flex;
+  align-items: center;
+}
+
+.db-icon {
+  font-size: 24px;
+  color: #8e3bdb;
+  margin-right: 10px;
+  width: 28px;
+  height: 25px;
+}
+
+.db-title-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.db-accordion-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.folder-icon {
+  cursor: pointer;
+}
+
+.db-accordion-body {
+  margin-top: 10px;
+}
+
+.db-accordion-list {
+  padding: 0;
+  margin: 0;
+}
+
+.db-accordion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid black;
+  padding: 8px;
+  margin: 20px 20px 0px 40px;
+}
+
+.db-connection-text {
+  margin: 0;
+}
+
+.db-no-connections {
+  color: #888;
+  font-size: 14px;
+}
+
+ */

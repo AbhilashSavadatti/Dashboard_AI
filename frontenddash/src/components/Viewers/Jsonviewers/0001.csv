@@ -1,0 +1,10 @@
+Year,Category,Product,Sales,Rating,Location
+2017,Components,Chains,20000,0.75,New York
+2015,Clothing,Socks,3700,0.22,Los Angeles
+2017,Clothing,Bib-Shorts,4000,0.22,Chicago
+2015,Clothing,Shorts,13300,0.56,San Francisco
+2017,Clothing,Tights,36000,1.0,Boston
+2015,Components,Handlebars,2300,0.35,Austin
+2016,Clothing,Socks,2300,0.28,Denver
+2016,Components,Brakes,3400,0.36,Miami
+2016,Bikes,Mountain Bikes,6300,0.4,Seattle

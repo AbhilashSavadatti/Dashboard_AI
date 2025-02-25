@@ -1,0 +1,81 @@
+.files-and-folder-accordion {
+  margin: 20px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+}
+
+.folder-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.folder-icon-action {
+  cursor: pointer;
+}
+
+.folder-list {
+  margin: 20px 20px 10px 40px;
+}
+
+.folder-item {
+  margin-bottom: 20px;
+}
+
+.folder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.folder-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.subfolder-icon {
+  cursor: pointer;
+}
+
+.file-list {
+  list-style: none;
+  margin: 15px 20px 0 20px;
+  padding: 0;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.file-name {
+  margin: 0 10px;
+}
+
+.file-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+}
+
+.folder-icon-fa {
+  width: 20px;
+  height: 20px;
+}

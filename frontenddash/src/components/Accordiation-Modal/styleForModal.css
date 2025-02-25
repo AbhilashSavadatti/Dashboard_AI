@@ -1,0 +1,50 @@
+
+/* Popup container */
+.overlay .popup {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overlay .popup h3 {
+    margin-bottom: 10px;
+}
+
+.overlay .credentials-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.overlay button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.overlay button:hover {
+    background-color: #45a049;
+}
+
+.overlay .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}

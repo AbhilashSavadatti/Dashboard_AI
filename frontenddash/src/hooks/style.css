@@ -1,0 +1,32 @@
+.sharer-button {
+  background-color: #00ffaa; /* A nice blue color */
+  border: none; /* Remove the default border */
+  border-radius: 50%; /* Makes the button circular */
+  padding: 10px; /* Adjust padding for size */
+  display: flex; /* Center the icon */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  cursor: pointer; /* Pointer cursor for buttons */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth animations */
+  margin: 10px;
+  float: right;
+  position: relative;
+  right: -65px;
+}
+
+.sharer-button:hover {
+  transform: scale(1.1); /* Slightly enlarges on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deepens shadow on hover */
+}
+
+.sharer-button:active {
+  transform: scale(0.95); /* Slightly shrinks when clicked */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Reduces shadow when clicked */
+}
+
+.sharer-button svg {
+  color: white; /* Icon color */
+  width: 24px; /* Adjust the size of the icon */
+  height: 24px;
+}

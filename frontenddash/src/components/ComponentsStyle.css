@@ -1,0 +1,393 @@
+/* AccordionSection.css */
+
+/* General Styles */
+.accordion-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.accordion-section-content {
+  padding-left: 20px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #34eba8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkmark-checked {
+  background-color: #34eba8;
+  border-color: #34eba8;
+}
+
+.checkmark-checked-inner {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 4px;
+  width: 8px;
+  height: 12px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+/* Accordion Item Styles */
+.accordion-item {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+.accordion-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding: 5px 10px;
+}
+
+.file-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.file-info-item-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-icon {
+  margin-right: 10px;
+}
+
+/* AccordionStyles.css */
+
+/* Accordion Styles */
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  width: 700px;
+}
+
+.accordion-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.accordion-content {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Navbar.css */
+
+/* AppBar styles */
+.navbar {
+  background-color: white;
+  color: #333;
+  padding: 1px 30px;
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Toolbar styles */
+.navbar .toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(10px);
+}
+
+/* Logo and company name container */
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.navbar .company-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #444545;
+}
+
+/* Button container */
+.navbar .button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Model button styles */
+.navbar .model-button {
+  background: linear-gradient(to right, #34eba8, #f0f05d);
+  color: #585e5b;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Upgrade button styles */
+.navbar .upgrade-button {
+  background: linear-gradient(to right, #34eba8, #f0f05d);
+  color: #585e5b;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Menu button styles */
+.navbar .menu-button {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Dropdown menu styles */
+.navbar .dropdown-menu {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  width: 250px;
+}
+
+/* Dropdown item styles */
+.navbar .dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: #333;
+  background-color: white;
+}
+
+/* Model title styles */
+.navbar .model-title {
+  cursor: pointer;
+  color: #11bd3f;
+}
+
+.navbar .radio {
+  margin-left: 10px;
+}
+
+/* Modal overlay styles */
+.navbar .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal box styles */
+.navbar .modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.navbar .modal-title {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar .input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Modal action buttons styles */
+.navbar .modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.navbar .save-button,
+.navbar .cancel-button {
+  background-color: #34eba8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.menu {
+  width: fit-content;
+  z-index: 100;
+  position: absolute;
+  width: 200px;
+  top: 90px;
+  right: 20px;
+  background-color: #f3f7f2;
+}
+
+/* List styles */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List item styles */
+.menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Optional: Add a divider between items */
+.menu li + li {
+  border-top: 1px solid #eee;
+}
+
+.share-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-modal.opened {
+  display: flex;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
